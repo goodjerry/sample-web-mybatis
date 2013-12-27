@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/sunivo-framework-2.0/!svn/ver/56/trunk/src/sample-webservice/src/main/resources
+END
+logback.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/sunivo-framework-2.0/!svn/ver/24/trunk/src/sample-webservice/src/main/resources/logback.xml
+END
+mybatisConfig.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/sunivo-framework-2.0/!svn/ver/56/trunk/src/sample-webservice/src/main/resources/mybatisConfig.xml
+END

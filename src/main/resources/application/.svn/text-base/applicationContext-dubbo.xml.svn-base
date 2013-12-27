@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans default-lazy-init="true"
+	xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://code.alibabatech.com/schema/dubbo
+        http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+	<!-- 通过注册中心发现监控服务(可能没有) -->
+	<dubbo:monitor protocol="registry" />
+	<!-- 提供方应用信息，用于计算依赖关系 -->
+	<dubbo:application name="sample-webservice1" />
+	<!-- 使用zookeeper注册中心暴露服务地址,客户端使用curator -->
+	<dubbo:registry protocol="zookeeper"
+		address="nj-ci-server:2181,nj-test-server1:2181" client="curator" />
+	<!-- 用dubbo协议在8888端口暴露服务 -->
+	<dubbo:protocol name="dubbo" port="8888" />
+	<!-- 声明需要暴露的服务接口 -->
+	<!-- <dubbo:service interface="a.b.c.ID" ref="d" /> -->
+</beans>

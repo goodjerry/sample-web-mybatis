@@ -1,0 +1,12 @@
+#created by chengjianfang@sunivo.com
+#Mon Dec 17 09:21:40 CST 2012
+redis.isinlogfile=true
+redis.pool.maxActive=1024
+redis.logindb=true
+redis.pool.maxIdle=200
+redis.pool.maxWait=1000
+redis.pool.testOnBorrow=true
+redis.pool.testOnReturn=true
+redis.host=192.168.1.223
+redis.port=6379
+redis.db.pk=192.168.1.102:3306/tradxDB

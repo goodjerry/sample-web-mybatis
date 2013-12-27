@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/sunivo-framework-2.0/!svn/ver/56/trunk/src/sample-webservice/src/main/resources/application
+END
+applicationContext-aopTx.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/sunivo-framework-2.0/!svn/ver/56/trunk/src/sample-webservice/src/main/resources/application/applicationContext-aopTx.xml
+END
+applicationContext.xml
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/sunivo-framework-2.0/!svn/ver/56/trunk/src/sample-webservice/src/main/resources/application/applicationContext.xml
+END
+applicationContext-dubbo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/sunivo-framework-2.0/!svn/ver/45/trunk/src/sample-webservice/src/main/resources/application/applicationContext-dubbo.xml
+END
+applicationContext-datasource.xml
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/sunivo-framework-2.0/!svn/ver/56/trunk/src/sample-webservice/src/main/resources/application/applicationContext-datasource.xml
+END

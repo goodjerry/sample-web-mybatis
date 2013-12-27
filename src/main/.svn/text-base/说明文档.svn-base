@@ -1,0 +1,25 @@
+环境：spring  mybatis bonecp（连接池） mysql
+spring 3.2.6.RELEASE
+mybatis 3.2.3 说明文档参见 http://mybatis.github.io/mybatis-3/zh/configuration.html
+mysql驱动  5.1.27
+
+1、eclipse安装testng的插件地址为  http://beust.com/eclipse ;
+  testng的使用说明详见：http://testng.org/doc/eclipse.html#eclipse-installation。
+  
+2、eclipse安装 Mybatis generator插件的地址为 http://mybatis.googlecode.com/svn/sub-projects/generator/trunk/eclipse/UpdateSite/
+   安装后配置文件中要配置数据库驱动的jar包位置，如下：
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" >
+<generatorConfiguration >
+  <classPathEntry location="E:/mysql-connector-java-5.1.27.jar" />
+  <context id="context1" >
+    <jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://192.168.1.223:3306/framework" userId="root" password="Abcd1234" />
+    <javaModelGenerator targetPackage="com.sunivo.ws.bean" targetProject="sample-webservice" />
+    <sqlMapGenerator targetPackage="com.sunivo.ws.dao" targetProject="sample-webservice" />
+    <javaClientGenerator targetPackage="com.sunivo.ws.dao" targetProject="sample-webservice" type="XMLMAPPER" />
+    <table schema="" tableName="user" >
+    </table>
+  </context>
+</generatorConfiguration>
+
+3、

@@ -1,0 +1,40 @@
+10
+
+dir
+63
+http://192.168.1.222:18080/svn/sunivo-framework-2.0/trunk/src/sample-webservice/src/test
+http://192.168.1.222:18080/svn/sunivo-framework-2.0
+
+
+
+2013-12-26T10:49:55.035981Z
+57
+liwen
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3626e806-e5af-4572-b132-6e07e1470676
+
+
+
+
+
+
+
+
+((conflict java dir update added added (version http://192.168.1.222:18080/svn/sunivo-framework-2.0 2 56 trunk/src/sample-webservice/src/test/java dir) (version http://192.168.1.222:18080/svn/sunivo-framework-2.0 2 57 trunk/src/sample-webservice/src/test/java dir)))
+
+java
+dir
+
